@@ -1,0 +1,848 @@
+title{
+    text-align: right;
+}
+
+body{
+    
+    margin: 0px;
+    height: 3000px;
+    background-color: #dcddd8;
+}
+
+.container {
+    
+   margin: auto;
+    width: 1170px;
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    background-color: #354b5e;
+    margin: 0px ;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 7px 18px #000
+    
+}
+.navbar p {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    font-size: 30px;
+}
+.navbar .container {
+    font-size: 25px;
+    padding:18px;
+    color: #DDD;
+
+}
+
+.navbar span{
+    
+    color: aquamarine;
+}
+
+.navbar .container ul {
+    
+    list-style: none;
+    margin: 0px;
+    margin-left: 350px;
+    float: right;
+}
+.navbar .container ul li {
+    
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+    text-transform: capitalize;
+    color: #DDD;
+    border-radius: 20px;
+    padding: 0px 10px;
+  
+
+}
+.navbar .container ul li a {
+    
+    text-decoration: none;
+    color:#DDD;
+}
+ 
+.navbar .container ul li:hover {
+    
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar .container ul li a:hover {
+    
+    color: white;
+    transition: 0.5s;
+}
+
+.slider .bg{
+    
+    background-image: url("imgs/bg2.jpg");
+    background-size: cover;
+    height: 667px;
+    background-attachment: fixed;
+}
+.slider .bg .intro {
+    
+    padding-top: 250px;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+}
+
+.slider .bg .intro h1{
+    
+        text-transform: capitalize;
+        text-shadow: 2px 1px 3px #dcddd8, 3px 1px 4px #dcddd8;
+        font-size: 35px;
+        color:red;
+
+}
+.slider .bg .bg-intro{
+    
+    background-color: #000;
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 400px;
+    border-radius: 50px;
+    opacity: 0.7;
+
+    
+} 
+
+.slider .bg .intro button {
+    
+    background: none;
+    width: 170px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 750;
+    margin: 40px;
+    color:white;
+    border:2px solid #fff;
+    border-radius: 5px;
+}
+
+.slider .bg .intro button:hover{
+    
+    background-color: #2DCC70;
+    transition: 0.5s;
+}
+
+.dn{
+    
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    background-color: firebrick;
+    box-shadow: -2px -3px 13px #fff;
+}
+
+
+.about-me .mass {
+    width: 90%;
+    height: 500px;
+    margin: 32.5px auto;
+    background-color: #354b5e; 
+    position: relative;
+    
+
+}
+
+.about-me .mass img{
+   width:47%;
+    height: 100%;
+    float: left;
+    margin-top: -17px;
+    padding-top: 0px;
+    z-index: 2;
+}
+.about-me h2{
+    
+    font-size: 30px;
+    color: aqua;
+}
+.about-me .about p{
+    
+    font-size: 20px;
+}
+
+about-me p{
+    
+    
+}
+.about-me .about{
+    
+    width: 50%;
+    float: right;
+    
+}
+
+.about-me .mass .follow{
+    width: 53%;
+    height: 102px;
+    background-color: #262f2e;
+    z-index: 1;
+    margin-left: 495px;
+    margin-top: 381px;
+    color: antiquewhite;
+}
+.about-me .mass .follow ul{
+    list-style: none;
+    
+}
+
+.about-me .mass .follow ul li{
+    margin-left: -15px;
+    float:left;
+    margin-right: 50px;
+    margin-top: 0px;
+    font-size: 25px;
+    
+}
+
+.about-me .mass .follow ul li .freind{
+    margin-top: 5px;
+    font-size: 50px;
+}
+
+.about-me .mass .follow ul li .followers{
+    font-size: 50px;
+        margin-top: 5px;
+
+}
+
+.about-me .mass .follow ul li .modx{
+    font-size: 50px !important;
+        margin-top: 5px;
+
+        
+}
+.about-me .mass .follow ul ul li{
+    margin-left: -5px;
+    float:left;
+    margin-right: 50px;
+    margin-top: 0px;
+    font-size: 25px;
+
+}
+
+.dn1{
+    
+    width: 100%;
+    height: 65px;
+    background-color: firebrick;
+    box-shadow: -2px -3px 13px #000;
+    margin-top: -56px;
+    z-index: 3;
+}
+
+/* start  my skills and works */ 
+.skills-works
+{
+    height: 500px;
+   
+}
+.skills-works .myskills .bar-1{
+    
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    background-color: #DCDDD8;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: -25px;
+    margin-left: 60px
+}
+.skills-works .myskills .bar-2 {
+     position: absolute;
+    width: 200px;
+    height: 25px;
+    background-color: #6ab78d;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: -25px;
+    margin-left: 60px
+    
+}
+
+.skills-works .myskills .bar-3{
+    
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    background-color: #DCDDD8;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: -25px;
+    margin-left: 60px
+}
+.skills-works .myskills .bar-4 {
+     position: absolute;
+    width: 250px;
+    height: 25px;
+    background-color: #6ab78d;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: -25px;
+    margin-left: 60px
+    
+}
+.skills-works .myskills .bar-5{
+    
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    background-color: #DCDDD8;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: -25px;
+    margin-left: 60px
+}
+
+.skills-works .myskills .bar-6 {
+     position: absolute;
+    width: 350px;
+    height: 25px;
+    background-color: #6ab78d;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: -25px;
+    margin-left: 60px
+    
+}
+.myskills
+{
+    
+    width: 50%;
+    height: 100%;
+    background: #554E44;
+    margin-bottom: 10px;
+    float: left;
+    border-right: 5px solid #F74906;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 35px;
+    color:#EDEDE4;
+
+}
+.myskills .photo,
+.html,
+.css
+{
+    margin: 30px
+    
+}
+.myskills p , .myworks p 
+{
+    
+    font-size: 15px;
+    color: #6ab78d;
+}
+.myworks
+{
+    
+    width: 50%;
+    background: #554E44;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 35px;
+    color:#EDEDE4;
+    display: inline;
+}
+
+.myworks .works
+{
+    
+    margin: 20px;
+    color:#2CC0B3;
+}
+. myworks .vedio {
+    
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+/* end my skills and works */ 
+
+
+}
+
+/* Start My team info  */
+.myinfo {
+    
+    height: 600px;
+    margin: 20px;
+}
+.myinfo .info
+{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    
+}
+
+.myinfo .underinfo
+{
+    
+    text-align: center;
+}
+.myinfo .amb
+{
+    margin: 30px;
+    margin-left: 270px;
+    margin-top: 50px;
+    text-align: center;
+    text-transform:uppercase;
+}
+.myinfo .amb .brot
+{
+  float: left;
+}
+.myinfo .amb .ayman,
+.myinfo .amb .brot
+{
+    background-color: #fff;
+    width: 250px;
+    height: 350px;
+    float: left;
+    padding-top: 20px;
+    font-size: 25px;
+    color: silver;
+   
+}
+
+
+/*bbbbbbbrrrrrrrrroooooooootttttttttt */ 
+.myinfo .amb .ayman img
+{
+    border-color: black;
+    margin-top: 10px;
+    border-radius: 50%;
+    
+}
+
+.myinfo .amb .ayman .age, .country, .lang
+{
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+.myinfo .amb .mahmoud
+{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: -27.5px;
+    padding-top: 30px;
+    font-size: 25px;
+    
+    
+} 
+
+.myinfo .amb .ayman .age
+{
+    height: 20px;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 1px 0px 0px 0px ;
+    border-style:dotted;
+    width: 220px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.myinfo .amb .ayman .country
+{
+    height: 20px;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    border-style: dashed;
+    width: 220px;
+    margin-left: 20px;
+    padding-top: 5px
+}
+
+.myinfo .amb .ayman .lang
+{
+    height: 20px;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    width: 220px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.myinfo .amb .ayman button
+{
+    margin-top: 18px;
+    width: 90px;
+    height: 40px;
+    background-color: orange;
+    border:1px solid #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.myinfo .amb .ayman button:hover
+{
+    background-color: #354b5e;
+    color: #fff;
+    transition: 0.5s;
+}
+/*bbbbbbbrrrrrrrrroooooooootttttttttt */ 
+.myinfo .amb .brot .age, .country, .lang
+{
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+.myinfo .amb .brot img
+{
+    border-color: black;
+    margin-top: 10px;
+    border-radius: 50%;
+    
+}
+.myinfo .amb .brot .age
+{
+    height: 20px;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 1px 0px 0px 0px ;
+    border-style:dotted;
+    width: 220px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.myinfo .amb .brot .country
+{
+    height: 20px;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    border-style: dashed;
+    width: 220px;
+    margin-left: 20px;
+    padding-top: 5px
+}
+
+.myinfo .amb .brot .lang
+{
+    height: 20px;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    width: 220px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.myinfo .amb .brot button
+{
+    margin-top: 18px;
+    width: 90px;
+    height: 40px;
+    background-color: orange;
+    border:1px solid #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.myinfo .amb .brot button:hover
+{
+    background-color: #354b5e;
+    color: #fff;
+    transition: 0.5s;
+}
+/* Maaaaaahmmmmmmmmmmmmmouuuuuuuuuuud */ 
+
+.myinfo .amb .mahmoud .age, .country, .lang
+{
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+.myinfo .amb .mahmoud img
+{
+    border-color: black;
+    margin-top: 10px;
+    border-radius: 50%;
+    
+}
+.myinfo .amb .mahmoud .age
+{
+    height: 20px;
+    margin-top: 10px;
+    border-color: black;
+    border-width: 1px 0px 0px 0px ;
+    border-style:dotted;
+    width: 220px;
+    margin-left: 40px;
+    padding-top: 5px;
+}
+.myinfo .amb .mahmoud .country
+{
+    height: 20px;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    border-style: dashed;
+    width: 220px;
+    margin-left: 40px;
+    padding-top: 5px
+}
+
+.myinfo .amb .mahmoud .lang
+{
+    height: 20px;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    width: 220px;
+    margin-left: 40px;
+    padding-top: 5px;
+}
+
+.myinfo .amb .mahmoud button
+{
+    margin-top: 18px;
+    width: 90px;
+    height: 40px;
+    background-color: #354b5e;
+    border:1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.myinfo .amb .mahmoud img {
+    
+    margin-top: 40px;
+}
+.myinfo .amb .mahmoud button:hover
+{
+    background-color: orange;
+    color: black;
+    transition: 0.5s;
+}
+
+
+/* End My team info  */
+    .dn2{
+    
+    width: 100%;
+    height: 65px;
+    background-color: firebrick;
+    box-shadow: -2px -3px 13px #000;
+    margin-top: 435px;
+    z-index: 3;
+}
+/* Start Contact-me */
+  
+.contactme{
+    
+    background-color: #F1F1F1;
+    width: 80%;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 160px;
+    padding: 50px 0px 0px 30px;
+}
+
+.contactme h3{
+    
+    font-size: 35px;
+    font-family: "MyTestBold",tahoma;
+    color: #7e7e7e;
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+
+}
+
+.contactme .fill
+{
+    margin-left: 250px;
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #5b5b5b
+}
+
+.contactme .line {
+    
+    border-top: 1px solid #F1F1F4;
+    margin-top: 20px;
+    margin-left: 75px;
+    box-shadow: 0px 7px 18px #000;
+    width: 80%;
+}
+
+.felid {
+    
+     color: #646565;
+    font-weight: bold;
+    height: 32px;
+    padding: 30px;
+    width: 290px;
+    font-family: "mytestbold";
+    font-size: 30px;
+    float: left;
+      
+}
+
+.felidd
+{
+     color: #646565;
+    font-weight: bold;
+    height: 32px;
+    padding: 30px;
+    width: 350px;
+    font-family: "mytestbold";
+    font-size: 30px;  
+    float: left;
+    display: inline;
+}
+
+.email
+{
+    color: #646565;
+    font-weight: bold;
+    height: 32px;
+    padding: 30px;
+    width: 350px;
+    font-family: "mytestbold";
+    font-size: 30px;  
+    float: left;
+    display: inline;
+    float: left;
+}
+
+.felid input, .felidd input, .email input{
+    
+    width: 200px;
+    height: 40px;
+    font-size: 25px
+}
+
+.contactme .text{
+    
+    color: #646565;
+    font-weight: bold;
+    height: 32px;
+    padding: 30px;
+    width: 350px;
+    font-family: mytestbold;
+    font-size: 30px;  
+    float: left;
+    display: inline;
+    float: left;
+    margin-left: -61px;
+}
+
+.contactme .text input {
+    
+    width: 400px;
+    height: 100px;
+}
+
+.contactme button{
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 90px;
+    height: 40px;
+    background-color: #354b5e;
+    border:2px solid #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.contactme button:hover
+{
+    background-color: orange;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.containerr{
+    width: 1100;
+    height: 190px;
+    background-color: firebrick;
+    margin-top: 20px;
+    color: #fff;
+    padding-left: 100px;
+    padding-top: 10px;
+    box-shadow: -2px -3px 13px #000;
+    margin-left: 0px;
+}
+.containerr .text-left {
+    
+    color: #ffeaea;
+    font-size: 15px;
+    font-family: "Roboto Slab";
+}
+.containerr .icons i {
+    
+    margin-top: -10px
+}
+.containerr .icons a{
+    font-size: 30px;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: -10px;
+    
+}
+
+.containerr .copytight .one{
+    padding-top: 0px;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-family: "Roboto Slab";
+    line-height: 1.75;
+    font-weight: lighter;
+    float: left;
+    display: inline;
+    color: #ffeaea;
+    
+}
+
+.containerr .copytight .two{
+    
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -50px;
+    margin-left: 220px;
+    font-family: "Roboto Slab";
+    line-height: 1.75;
+    font-weight: lighter;
+    float: left;
+    display: inline;
+    font-size: 30px;
+    color: #a09d9d;    
+    
+}
+
+.containerr .copytight .two span {
+    
+font-size: 50px;
+color: aliceblue;
+    
+    
+}
